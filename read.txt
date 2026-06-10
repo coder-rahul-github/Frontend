@@ -1,0 +1,9 @@
+https - HyperTextTransferProtocol
+        |
+        v
+cookies and seesions
+
+request and response
+
+headers - host , user agent(crome,microsoft,brave), accept , accept key encoding
+
