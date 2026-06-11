@@ -1,0 +1,79 @@
+/* Enable Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar Colorful Styles */
+.navbar {
+    background-color: #2c3e50; /* Deep blue, professional look */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li:hover {
+    background-color: #34495e; /* Slightly lighter blue on hover */
+}
+
+.nav-links a {
+    color: #ecf0f1; /* Bright, contrasting text color */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1abc9c; /* Pop of bright turquoise on hover */
+}
+
+/* Section Styles with varied background colors */
+.content-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px; /* Offset for fixed navbar */
+}
+#home { background-color: #1abc9c; } /* Turquoise */
+#about { background-color: #3498db; } /* Bright blue */
+#blog { background-color: #9b59b6; } /* Amethyst purple */
+#contact { background-color: #e74c3c; } /* Red */
+
+
+/* MEDIA QUERY for responsiveness */
+@media screen and (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+        border-bottom: 1px solid #34495e;
+    }
+}
