@@ -7,3 +7,15 @@ request and response
 
 headers - host , user agent(crome,microsoft,brave), accept , accept key encoding
 
+<p>-paragraph
+<a href =" ">attributes</a>
+
+<h1> Hie from class</h1>
+1. inline css 
+2. internal css 
+3. external css
+
+2 types of element
+1. inline element --> <span>,<img>,<a>
+2. block element--> <p>,
+
